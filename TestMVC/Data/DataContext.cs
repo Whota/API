@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using TestMVC.Entities;
+using TestMVC.Models;
 
 namespace TestMVC.Data
 {
