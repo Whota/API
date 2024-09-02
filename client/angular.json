@@ -57,6 +57,11 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "sslCert": "./ssl/techsynergy.test.crt",
+            "sslKey": "./ssl/techsynergy.test.key",
+            "ssl": true
+          },
           "configurations": {
             "production": {
               "buildTarget": "client:build:production"
